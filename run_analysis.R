@@ -61,4 +61,4 @@ levels(activity)=activity_labels$V2
 newdata=cbind.data.frame(activity,newdata)
 
   ##write a txt file
-write.table(newdata,file="newdata.txt")
+write.table(newdata,file="newdata.txt",row.names=FALSE)
